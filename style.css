@@ -1,0 +1,33 @@
+.block{
+    width: 100px;
+    height: 100px;
+    animation-name: chBlock;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+}
+@keyframes chBlock{
+    0%{
+        background-color: red;
+        top: 0;
+    }
+    25%{
+        background-color: blue;
+        top: 300px;
+    }
+    50%{
+        background-color: green;
+        top: 300px;
+        left: 300px;
+    }
+    75%{
+        background-color: yellow;
+        left: 300px;
+        top: 0;
+    }
+    100%{
+        background-color: red;
+        right: 0;
+    }
+}
